@@ -21,8 +21,7 @@
                     >
             <StackPanel HorizontalAlignment="Left"
                         VerticalAlignment="Top"
-                        Width="250px"
-                        Margin="10">
+                        Width="250px">
                 <TextBlock Name="Lore" TextWrapping="Wrap">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -56,9 +55,16 @@
             </StackPanel>
             <StackPanel HorizontalAlignment="Left"
                         VerticalAlignment="Top"
-                        Width="300px">
-                
-                
+                        Width="300px"
+                        Orientation="Horizontal">
+                <Image Width="200px" Height="200px" Source="Assets/Azul.png" Stretch="Fill"/>
+                <StackPanel HorizontalAlignment="Left"
+                            VerticalAlignment="Top"
+                            Width="100px"
+                            Height="200px">
+                    <Image Width="100px" Height="100px" Source="Assets/amarilla.png" Stretch="Fill"/>
+                    <Image Width="100px" Height="100px" Source="Assets/roja.png" Stretch="Fill"/>
+                </StackPanel>
             </StackPanel>
         </StackPanel>
     </StackPanel>
